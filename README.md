@@ -1,7 +1,7 @@
 # S&P 500 Quant Strategy
 ## Unsupervised Learning, Efficient Frontier Optimization, and Monthly Rebalancing
 
-This project develops a quantitative trading strategy for the S&P 500 using 10 years of daily data (2015–2025) from `yfinance`. It calculates monthly technical indicators (RSI, MACD, etc.), selects stocks via K-means clustering, and optimizes portfolios monthly with `PyPortfolioOpt`’s Efficient Frontier for maximum Sharpe ratio. The strategy is rebalanced monthly and backtested over 5 years against the S&P 500, with rolling normalization to eliminate biases.
+This project develops a quantitative trading strategy for the S&P 500 using 10 years of daily data (2015–2025) from `yfinance`. It calculates monthly technical indicators (RSI, MACD, etc.), selects stocks via K-means clustering, and optimizes portfolios monthly with `PyPortfolioOpt`’s Efficient Frontier for maximum Sharpe ratio. The strategy is rebalanced monthly and backtested over 5 years against the S&P 500.
 
 ## Features
 - **Data**: 10 years of S&P 500 daily data, aggregated monthly.
